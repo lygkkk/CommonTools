@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TESTwf", "TESTwf\TESTwf.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepPrompt", "StepPrompt\StepPrompt.csproj", "{36023935-7FD7-4D63-B026-20A70B3587B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiDuAPI", "BaiduOcr\BaiDuAPI.csproj", "{D27BE5E1-EA75-476F-8BE1-9874FA99E722}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{36023935-7FD7-4D63-B026-20A70B3587B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36023935-7FD7-4D63-B026-20A70B3587B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36023935-7FD7-4D63-B026-20A70B3587B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D27BE5E1-EA75-476F-8BE1-9874FA99E722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D27BE5E1-EA75-476F-8BE1-9874FA99E722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D27BE5E1-EA75-476F-8BE1-9874FA99E722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D27BE5E1-EA75-476F-8BE1-9874FA99E722}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
