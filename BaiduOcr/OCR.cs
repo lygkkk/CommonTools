@@ -23,12 +23,11 @@ namespace BaiDuAPI
 
             byte[] image = File.ReadAllBytes(filePath);
             // 调用通用文字识别, 图片参数为本地图片，可能会抛出网络等异常，请使用try/catch捕获
-            var result = client.GeneralBasic(image);
-            return result;
+            //return client.TableRecognitionRequest(image);
+            //return client.TableRecognitionRequest(image);
+            return client.Form(image);
         }
 
         #endregion
-
-
     }
 }

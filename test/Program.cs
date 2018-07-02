@@ -17,18 +17,21 @@ namespace test
     {
         static void Main(string[] args)
         {
-            JObject result = OCR.Recogniz(@"C:\Users\Administrator\Desktop\三墩新天地\IMG_0617.JPG");
+            JObject result = OCR.Recogniz(@"C:\Users\Administrator\Desktop\微信图片_20180702212612.png");
 
             //JSON转义
-            var  txt = (from obj in (JArray)result.Root["words_result"] select (string)obj["words"]);
+            //var  txt = (from obj in (JArray)result.Root["words_result"] select (string)obj["words"]);
             //   let phrase = (JObject)obj["phrase"]
             //select (string)obj["words"]);
 
             //读取数据
-            foreach (object str in txt)
-            {
-                Console.WriteLine(str);
-            }
+            //foreach (object str in txt)
+            //{
+            //    Console.WriteLine(str);
+            //}
+
+            Console.WriteLine(result);
+
             Console.ReadKey();
         }
     }
