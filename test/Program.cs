@@ -17,7 +17,8 @@ namespace test
     {
         static void Main(string[] args)
         {
-            JObject result = OCR.Recogniz(@"C:\Users\Administrator\Desktop\微信图片_20180702212612.png");
+            OCR ocr = new OCR();
+            JObject result = ocr.Recognition(@"C:\Users\Administrator\Desktop\微信图片_20180702212612.png", "");
 
             //JSON转义
             //var  txt = (from obj in (JArray)result.Root["words_result"] select (string)obj["words"]);
